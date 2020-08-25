@@ -5,15 +5,12 @@ const cors = require('cors')
 const app = express()
 
 // express middleware
-/*
 morgan.token('request-body', (req) => {
     return JSON.stringify(req.body)
 })
-*/
 
 app.use(cors())
 
-/*
 app.use(morgan(function (tokens, req, res) {
     return [
         tokens.method(req, res),
@@ -26,7 +23,6 @@ app.use(morgan(function (tokens, req, res) {
         tokens['request-body'](req, res),
     ].join(' ')
 }))
-*/
 
 
 app.use(express.json())
