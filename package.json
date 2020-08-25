@@ -18,5 +18,13 @@
   "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HopeStaff/teststackopen-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HopeStaff/teststackopen-3/issues"
+  },
+  "homepage": "https://github.com/HopeStaff/teststackopen-3#readme"
 }
